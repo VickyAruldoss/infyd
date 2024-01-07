@@ -1,0 +1,50 @@
+{
+  "name": "@vickyaruldoss/infyd",
+  "version": "1.0.0",
+  "description": "this is the repo for ui components",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timonwa/demo-ui-library.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/react": "^7.6.7",
+    "@storybook/react-webpack5": "^7.6.7",
+    "@storybook/test": "^7.6.7",
+    "@types/react": "^18.2.47",
+    "@types/styled-components": "^5.1.34",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "storybook": "^7.6.7",
+    
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "styled-components": "^6.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
